@@ -2,12 +2,7 @@
 
 <?php 
 require 'vendor/autoload.php';
-
-$session = new SpotifyWebAPI\Session(
-    '7249a07e4e44452391554dc3a503277d', // client id
-    'c15369e5b8704e15ba83cf3c33a28a29', // secret
-    'http://localhost/'
-);
+require 'api_auth.php';
 
 $api = new SpotifyWebAPI\SpotifyWebAPI();
 
