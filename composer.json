@@ -1,0 +1,18 @@
+{
+    "name": "hackathon/spotifyquizapp",
+    "description": "Composer for Spotify App",
+    "type": "project",
+    "require": {
+        "guzzlehttp/guzzle": "^6.3.0",
+        "monolog/monolog": "1.0",
+        "jwilsson/spotify-web-api-php": "^5.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hackathon",
+            "email": "ewanross55@yahoo.com"
+        }
+    ]
+
+}
